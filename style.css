@@ -95,7 +95,11 @@ h3 {
 .icon-down {
   cursor: pointer;
   position: absolute;
+  top: 25px;
   right: 0;
+}
+.detail-container {
+    position: relative;
 }
 details {
   position: relative;
@@ -111,7 +115,7 @@ h3:hover {
   font-weight: 700;
   color: var(--very-dark-desaturated-blue);
 }
-.content-detail[open] .icon-down {
+.rotate {
   transform: rotate(180deg);
 }
 .summary-content {
